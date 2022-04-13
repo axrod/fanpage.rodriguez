@@ -46,7 +46,7 @@ body{
     transition: 0.4s;
   }
   
-  #navbar a:hover {
+  #navbar-right a:hover {
     background-color: orange;
     color: black;
   }
@@ -57,6 +57,8 @@ body{
 
   #navbar-right {
     float: right;
+    position: relative;
+    top: 50px;
   }
   .header__logo{
     height: 80%;
@@ -301,8 +303,9 @@ svg circle {
     }
     #navbar-right {
       float: none;
+      position: static;
     }
-
+    
     /* personajes */
     .personaje__info{
         flex-direction: column;
